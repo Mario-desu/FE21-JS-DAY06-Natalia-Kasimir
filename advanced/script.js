@@ -16,8 +16,8 @@ for (book in booksData) {
   
   document.getElementById("printBooks").innerHTML += `
   <div class="col">
-    <div class="card col-12">
-      <img class="card-img-top img-thumbnail" src="${booksData[book].image}" alt="Card image cap">
+    <div class="card col-12" style="width: 300px; height: auto;">
+      <img class="card-img-top img-thumbnail" style="width: 290px; height: 290px; object-fit: cover; object-position: 20% 10%;" src="${booksData[book].image}" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">${booksData[book].title}</h5>
           <p class="card-text">${booksData[book].author}</p>
@@ -28,9 +28,8 @@ for (book in booksData) {
   console.log(textRead);
   //if function, by default it checks the statement when you write it without any condition in the brackets.
   if (textRead) {
-    document.getElementsByClassName("card-body")[book].style.backgroundColor = "purple";
+    document.getElementsByClassName("card-body")[book].style.backgroundColor = "rgb(202, 239, 217)";
   } else {
     document.getElementsByClassName("card-body")[book].style.backgroundColor = "pink";
   }
 }
-
