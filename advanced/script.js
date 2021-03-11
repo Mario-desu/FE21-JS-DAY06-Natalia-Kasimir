@@ -12,6 +12,8 @@ let booksData = JSON.parse(books);
 console.log(booksData);
 
 for (book in booksData) {
+  var textRead = booksData[book].read;
+  
   document.getElementById("printBooks").innerHTML += `
   <div class="col">
     <div class="card col-12">
@@ -19,23 +21,16 @@ for (book in booksData) {
         <div class="card-body">
           <h5 class="card-title">${booksData[book].title}</h5>
           <p class="card-text">${booksData[book].author}</p>
-          <p class="card-text">${booksData[book].read}</p>
         </div>
     </div>
   </div>
   `
-}
-
-
-
-function colorBooks () {
-  for (book in booksData['read']) {
-    if(read == false) {
-      document.getElementById('printBooks').style.background = 'red';
-    } else {
-      document.getElementById('printBooks').style.background = 'green';
-    }
+  console.log(textRead);
+  //if function, by default it checks the statement when you write it without any condition in the brackets.
+  if (textRead) {
+    document.getElementsByClassName("card-body")[book].style.backgroundColor = "purple";
+  } else {
+    document.getElementsByClassName("card-body")[book].style.backgroundColor = "pink";
   }
-  return
 }
 
