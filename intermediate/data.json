@@ -1,0 +1,81 @@
+// Create a JSON file which contains the following details per employee:
+
+// Unique ID
+// First Name
+// Last Name
+// Email address
+// Job Title
+// Salary
+// Fill the JSON file with meaningful data for 10 Employees. Print each employee's details in a table which will look representative and easily readable for the management team.
+
+var employees = `[{
+      "id":"01",
+      "firstName":"Arald",
+      "lastName":"Absolut",
+      "email":"AraldAbsolut@gmail.com",
+      "jobTitle":"Angestellter",
+      "salary":"1000"
+    }, {
+      "id":"02",
+      "firstName":"Brald",
+      "lastName":"Bbsolut",
+      "email":"BraldBbsolut@gmail.com",
+      "jobTitle":"Bngestellter",
+      "salary":"2000"
+    }, {
+      "id":"03",
+      "firstName":"Crald",
+      "lastName":"Cbsolut",
+      "email":"CraldCbsolut@gmail.com",
+      "jobTitle":"Cngestellter",
+      "salary":"3000"
+    }, {
+      "id":"04",
+      "firstName":"Drald",
+      "lastName":"Dbsolut",
+      "email":"DraldDbsolut@gmail.com",
+      "jobTitle":"Dngestellter",
+      "salary":"4000"
+    }, {
+      "id":"05",
+      "firstName":"Erald",
+      "lastName":"Ebsolut",
+      "email":"EraldEbsolut@gmail.com",
+      "jobTitle":"Engestellter",
+      "salary":"5000"
+    }, {
+      "id":"06",
+      "firstName":"Frald",
+      "lastName":"Fbsolut",
+      "email":"FraldFbsolut@gmail.com",
+      "jobTitle":"Fngestellter",
+      "salary":"1006"
+    }, {
+      "id":"07",
+      "firstName":"Grald",
+      "lastName":"Gbsolut",
+      "email":"GraldGbsolut@gmail.com",
+      "jobTitle":"Gngestellter",
+      "salary":"1007"
+    }, {
+      "id":"08",
+      "firstName":"Hrald",
+      "lastName":"Hbsolut",
+      "email":"HraldHbsolut@gmail.com",
+      "jobTitle":"Hngestellter",
+      "salary":"1008"
+    }, {
+      "id":"09",
+      "firstName":"Irald",
+      "lastName":"Ibsolut",
+      "email":"IraldIbsolut@gmail.com",
+      "jobTitle":"Ingestellter",
+      "salary":"1009"
+    }, {
+      "id":"10",
+      "firstName":"Jrald",
+      "lastName":"Jbsolut",
+      "email":"JraldJbsolut@gmail.com",
+      "jobTitle":"Jngestellter",
+      "salary":"1010"
+    }]`
