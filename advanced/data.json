@@ -1,0 +1,61 @@
+let books = `[{
+  "title": "Arnold",
+  "author": "Achinger",
+  "read": "false",
+  "image": "https://images.pexels.com/photos/1368502/pexels-photo-1368502.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+},
+{
+  "title": "Brnold",
+  "author": "Bchinger",
+  "read": "true",
+  "image": "https://images.pexels.com/photos/1615812/pexels-photo-1615812.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+},
+{
+  "title": "Crnold",
+  "author": "Cchinger",
+  "read": "false",
+  "image": "https://images.pexels.com/photos/1599497/pexels-photo-1599497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+},
+{
+  "title": "Drnold",
+  "author": "Dchinger",
+  "read": "true",
+  "image": "https://images.pexels.com/photos/1546695/pexels-photo-1546695.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+},
+{
+  "title": "Ernold",
+  "author": "Echinger",
+  "read": "false",
+  "image": "https://images.pexels.com/photos/1540258/pexels-photo-1540258.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+},
+{
+  "title": "NeverEverNeverEver",
+  "author": "Lady Diana",
+  "read": "true",
+  "image": "https://images.pexels.com/photos/1546038/pexels-photo-1546038.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+},
+{
+  "title": "Holy Sheep",
+  "author": "Shaun",
+  "read": "false",
+  "image": "https://images.pexels.com/photos/1545981/pexels-photo-1545981.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+},
+{
+  "title": "Ragnarogs Revenge",
+  "author": "Isegrind Grosshandstandsson",
+  "read": "true",
+  "image": "https://images.pexels.com/photos/1237760/pexels-photo-1237760.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+},
+{
+  "title": "Men in Bleck Men",
+  "author": "Vanilla Ice",
+  "read": "true",
+  "image": "https://images.pexels.com/photos/6642093/pexels-photo-6642093.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+},
+{
+  "title": "Alvin and the Cheap Monks",
+  "author": "Captain Blaubär",
+  "read": "false",
+  "image": "https://images.pexels.com/photos/5615786/pexels-photo-5615786.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+}]
+`
